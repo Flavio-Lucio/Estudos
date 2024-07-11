@@ -7,3 +7,12 @@ function teste1(num) {
 
 teste1(6)
 teste1(8)
+
+function teste2(num) {
+    if(num); {//cuidado com o ';', não usar com as estruturas de controle
+        console.log(num)
+    }
+}
+
+teste2(6)
+teste2(8)
