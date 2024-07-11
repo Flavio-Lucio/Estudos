@@ -27,4 +27,4 @@ seforverdadeeufalo('?')
 seforverdadeeufalo([])
 seforverdadeeufalo([1, 2])
 seforverdadeeufalo()
-console.log("B")
+
