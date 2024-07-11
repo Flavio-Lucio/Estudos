@@ -15,16 +15,18 @@ function seforverdadeeufalo(valor) {
     }
  }
 
+ // exemplos que não dão certo
 seforverdadeeufalo()
 seforverdadeeufalo(null)
 seforverdadeeufalo(undefined)
 seforverdadeeufalo(NaN)
 seforverdadeeufalo('')
 seforverdadeeufalo(0)
+// exemplos que dão certo
 seforverdadeeufalo(-1)
 seforverdadeeufalo(' ')
 seforverdadeeufalo('?')
 seforverdadeeufalo([])
 seforverdadeeufalo([1, 2])
-seforverdadeeufalo()
+seforverdadeeufalo({})
 
